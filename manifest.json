@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Deceptive Chart Detector",
+  "version": "1.0",
+  "description": "Detect deceptive charts on web pages by analyzing images via an API.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ]
+}
