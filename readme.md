@@ -33,7 +33,7 @@ This will install the extension and it will be active in your browser.
 ### 3. Using the Extension
 
 - Once the extension is installed, simply navigate to any web page that contains images.
-- Hover over any image, and a button will appear that says "Kliknij aby sprawdzić pod kątem manipulacji" ("Click here to check for tampering").
+- Hover over any image, and a button will appear that says "Click to check for deception".
 - Click the button to send the image to the API for analysis.
 - Wait for the results. The button will show a spinning animation while the image is being processed.
 - If the image is found to be manipulated, the button will allow you to open the manipulated image in a new tab. If the image is not manipulated, the button will show a success message.
