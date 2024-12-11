@@ -67,7 +67,7 @@ if(!exceptions.includes(window.location.href)){
 				let dotCount = 0;
 				const animateDots = () => {
 					const dots = ".".repeat(dotCount % 4);
-					e.target.innerHTML = `Przetwarzam obraz, proszę czekać${dots}`;
+					e.target.innerHTML = `Processing the image, please wait${dots}`;
 					dotCount++;
 				};
 
